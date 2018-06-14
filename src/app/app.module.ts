@@ -12,7 +12,7 @@ import { CollapseComponent } from './modules/directive/collapse/collapse.compone
 import { DropdowComponent } from './modules/directive/dropdown/dropdown.component';
 import { SearchPipe } from './modules/directive/search/search.component';
 import { TooltipModule } from 'ng2-tooltip-directive';
-
+import { NgDatepickerModule } from 'ng2-datepicker';
 @NgModule({
   declarations: [
     AppComponent, 
@@ -27,7 +27,8 @@ import { TooltipModule } from 'ng2-tooltip-directive';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    TooltipModule
+    TooltipModule,
+    NgDatepickerModule
   ],
   providers: [ ScriptLoaderService ],
   bootstrap: [AppComponent]

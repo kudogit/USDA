@@ -7,3 +7,14 @@
 .filter-btn{
     width: 50%;
 }
+
+.wc-date-popover {
+    width: 100%;
+    position: absolute;
+    top: 31px;
+    height: auto;
+    left: 0;
+    transform: translateX(0);
+}
+
+

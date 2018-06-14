@@ -22,6 +22,9 @@
                             theme="light"></dropdown>
                       </div>
                       <div class="col-md-4 row-input">
+                          <ng-datepicker [options]="settings" [(ngModel)]="date"></ng-datepicker>
+                      </div>
+                      <div class="col-md-4 row-input">
                           <button class="btn btn-primary filter-btn" (click)="checkNextStep()">
                               Go
                           </button>
@@ -68,6 +71,7 @@
           </div>
     </div> 
 </div>
+
 
 
 
