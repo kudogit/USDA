@@ -1,0 +1,81 @@
+.main-body{
+  margin-top:65px;
+}
+
+/* Customer navbar header  */
+
+.navbar-default{
+  background: #74ad5d;
+  border: #74ad5d;
+}
+
+.navbar-default .navbar-brand{
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a{
+  color: #FFF;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #FFF;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #74ad5d; 
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+  color: #1c4909;
+  background-color: transparent;
+  transition: .5s ease-in-out;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+  color: #1c4909;
+  background-color: transparent;
+  transition: .5s ease-in-out;
+}
+
+/* End This  */
+
+.btn-primary {
+  color: #fff;
+  background-color: #74ad5d;
+  border-color: #74ad5d;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color:#397322;
+  border-color: #397322;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+  color: #fff;
+  background-color:#397322;
+  border-color: #397322;
+}
+
+
+.panel-default>.panel-heading {
+  color: #fff;
+  background-color: #74ad5d;
+  border-color: #74ad5d;
+}
+
+.form-control{
+  border-radius:0;
+}
+
+.btn{
+  border-radius: 0;
+}
+
+.panel-group .panel{
+  border-radius: 0;
+}
+
+.panel-body{
+  padding: 30px 15px;
+}

@@ -1,0 +1,55 @@
+.icon-dropdown i{
+    font-size: 15px;
+}
+
+.icon-dropdown{
+    position: absolute;
+    right: 0%;
+    top: 3%;
+    cursor: pointer;
+    padding: 6px 11px;
+    background: #74ad5d;
+    color:#FFF;
+}
+
+li{
+    list-style: none;
+}
+
+.form-dropdown{
+    width: 100%;
+    position: relative;
+}
+
+.form-dropdown .list_drop_style{
+    width: 100%;
+    position: absolute;
+    z-index: 1000;
+}
+
+.form-dropdown .list_drop_style ul{
+    background:#74ad5d;
+    padding-left: 10px;
+}
+
+.form-dropdown .list_drop_style ul li{
+    padding:10px 0px;
+    color:#FFFFFF;
+    cursor: pointer;
+}
+
+.form-dropdown .list_drop_style ul li:first-child{
+    padding: 0;
+    margin-left: -10px;
+}
+.form-dropdown .list_drop_style ul li:first-child input{
+    border-radius: none;
+}
+
+.toogle-ds{
+    display: none;
+}
+
+.toogle-dc{
+    display: block;
+}

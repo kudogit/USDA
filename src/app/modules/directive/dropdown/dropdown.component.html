@@ -1,0 +1,18 @@
+<div class="form-dropdown">
+    <input type="text" class="form-control" [(ngModel)]="item.name" [value]="item.name" [disabled]="true" />
+    <span (click)="toggle()" class="icon-dropdown">
+        <i class="fa fa-sort-desc" aria-hidden="true"></i>
+    </span>
+    <div class="list_drop_style">
+        <ul [ngClass]="{
+            'toogle-ds':!isToggle,
+            'toogle-dc':isToggle}">
+            <li><input type="text" class="form-control" [(ngModel)]="query" placeholder="search"></li>
+            <li *ngFor="let item of selected | LockFilter:query" (click)="getValue(item)">
+                {{item.name}}
+            </li>
+        </ul>
+    </div>
+</div>
+
+
